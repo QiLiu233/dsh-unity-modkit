@@ -61,7 +61,7 @@ dsh-PixTiny hooks `Material.SetFloat`BT (string and id overloads) and rewrites:
 | `_Divisor`BT | `1000000`BT |
 | `_Mosa_On`BT | `0`BT |
 
-All three are config values (`BepInEx/config/io.github.dsh.pixtiny.cfg`BT).
+All three are config values (`BepInEx/config/io.github.qiliu233.pixtiny.cfg`BT).
 
 It targets the **shader parameters**, not a specific game, so it is game-agnostic —
 but it only works on games that drive mosaic through those properties.

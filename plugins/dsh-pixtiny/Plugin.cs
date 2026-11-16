@@ -16,7 +16,7 @@ namespace Dsh.PixTiny;
 [BepInPlugin(Guid, "dsh-PixTiny", Version)]
 public class Plugin : BasePlugin
 {
-    public const string Guid = "io.github.dsh.pixtiny";
+    public const string Guid = "io.github.qiliu233.pixtiny";
     public const string Version = "1.1.0";
 
     internal static ManualLogSource L;
