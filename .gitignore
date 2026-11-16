@@ -11,3 +11,7 @@ textures/
 export/
 out/
 *.zip
+
+# plugin deps / test stubs
+node_modules/
+_probe*.mjs

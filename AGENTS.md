@@ -17,6 +17,9 @@ test fixture only. There is no support contract, no issue triage, and no roadmap
 ## Layout
 
 ```
+package.json            DSH plugin manifest (dsh.plugin + dsh.bundle.patch)
+cordis.patch.yml        inserts unity-modkit (toolkitDir '' = package root)
+lib/index.js            tool registration, process runner, executable discovery
 tools/unpack.py         UnityPy front-end: info / list / mats / export / zip
 tools/setup.sh          installs Python deps + .NET SDK (proxy → mirrors → direct, SHA-512 checked)
 tools/env.sh            dotnet environment (caches redirected out of %APPDATA%)

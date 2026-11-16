@@ -1,0 +1,11 @@
+# dsh-unity-modkit: registers unity_unpack / unity_build_plugin / unity_scaffold.
+# toolkitDir '' = this package's own directory (tools/ lives next to lib/).
+- insert:
+    - id: unity-modkit
+      name: dsh-unity-modkit
+      config:
+        toolkitDir: ''
+        timeoutMs: 600000
+        outputChars: 12000
+        bashPath: ''
+        pythonPath: ''

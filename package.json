@@ -1,0 +1,45 @@
+{
+  "name": "dsh-unity-modkit",
+  "version": "0.2.0",
+  "description": "Unity asset unpacking and BepInEx plugin build tools for DeepSeek Harness",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "tools",
+    "plugins",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "NOTICE.md",
+    "AGENTS.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "unity",
+    "bepinex",
+    "unpack",
+    "assetbundle"
+  ],
+  "dsh": {
+    "plugin": true,
+    "kind": "server",
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/dsh-tools": "^0.1.5-rc.1 || ^0.1.7-rc.1 || ^0.2.0-rc.2",
+    "@deepseek-ai/schemastery": "^3.18.1"
+  }
+}
