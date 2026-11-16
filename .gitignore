@@ -1,0 +1,13 @@
+# build outputs
+bin/
+obj/
+*.user
+# tool caches
+.tools/
+__pycache__/
+*.pyc
+# extracted assets — NEVER commit (copyright)
+textures/
+export/
+out/
+*.zip
