@@ -8,6 +8,7 @@ A **reference implementation**, not a maintained product. It contains:
 
 - a game-agnostic Unity asset unpacker (`tools/unpack.py`)
 - a BepInEx 6 (IL2CPP) plugin build/scaffold toolchain (`tools/`)
+- a `unity_env` tool that reports/repairs the toolchain (missing tools go to the user first)
 - one example plugin, `plugins/dsh-pixtiny/`, that neutralises pixelation-style
   mosaic shaders by rewriting material parameters at the setter level
 

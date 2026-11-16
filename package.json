@@ -1,6 +1,6 @@
 {
   "name": "dsh-unity-modkit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Unity asset unpacking and BepInEx plugin build tools for DeepSeek Harness",
   "license": "MIT",
   "type": "module",
