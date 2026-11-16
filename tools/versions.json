@@ -1,0 +1,7 @@
+{
+  "python": "3.8",
+  "unitypy": "1.20",
+  "dotnetSdk": "8.0.428",
+  "bepinex": "6.0.0-be.793",
+  "note": "setup.sh checks these; dotnetSdk is installed exactly, others are minimums"
+}
